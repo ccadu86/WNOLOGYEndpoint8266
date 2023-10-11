@@ -2,8 +2,8 @@
 #include <ESPAsyncWebServer.h>
 #include <ArduinoJson.h>
 
-const char* ssid = "esp"; // Nome da rede Wi-Fi
-const char* password = "teste32esp"; // Senha da rede Wi-Fi
+const char* ssid = ""; // Nome da rede Wi-Fi
+const char* password = ""; // Senha da rede Wi-Fi
 
 AsyncWebServer server(80); // Criação do objeto do servidor na porta 80
 
